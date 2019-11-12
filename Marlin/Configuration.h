@@ -470,7 +470,7 @@
 #define EXTRUDE_MAXLENGTH 200
 
 //===========================================================================
-//======================== Thermal Runaway Protection =======================
+//======================== Thermal x Protection =======================
 //===========================================================================
 
 /**
@@ -485,8 +485,7 @@
  * If you get "Thermal Runaway" or "Heating failed" errors the
  * details can be tuned in Configuration_adv.h
  */
-//FIXME: Re-enable it
-//#define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
+#define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
 #define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
 
 //===========================================================================
